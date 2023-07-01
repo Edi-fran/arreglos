@@ -9,10 +9,11 @@
 </head>
 <body>
     <header>
-<div class="encab"></div>
+<div class="encab">
     <H1>Instituto Nuestra Señora del Rosario </H1>
     <h2>desarrollar el siguiente ejercicio</h2>
     <br>
+
 </div>
 
     </header>
@@ -21,45 +22,63 @@
         <br>
         <h1>Practica con Arreglos  tema 1.4</h1>
     <br>
+    <div class="e1">
+        <h5>1. Implementa una función que reciba un array de números <br> y devuelva el número más grande.</h5>
+     <input type="text" name ="dato[]" placeholder="ingresar  lo solocicitado"  id="ingreso"  >
     <br>
-<input type="checkbox" id="a">Implementa una función que reciba un array de números y devuelva el número más grande.
-
-</br>
-<input type="checkbox" id="b">Crea una función que reciba un string y devuelva un nuevo string con todas las letras en mayúsculas y los espacios reemplazados por guiones bajos.
-
-</br>
-<input type="checkbox" id="c">Escribe una función que reciba un número y devuelva un array con todos los números primos menores o iguales que ese número.
-
-</br>
-
-<input type="checkbox" id="d">Implementa una función que tome un array de strings y devuelva un nuevo array con la longitud de cada string.
-
-</br>
-
-<input type="checkbox" id="e">Crea una función que reciba un objeto y devuelva un array de strings con los nombres de todas las propiedades del objeto.
-
-</br>
-<input type="button" value="verificar" onclick="verificar()">
+    <textarea  id="Salida" cols="30" rows="4" ></textarea><br>
+    <input type="button" value="ingresar" onclick="recoger()">
+<input type="button" value="1.Mas grande" onclick="mostrar()">
+<input type="button" value="Eliminar" onclick="eliminar()">
 <br>
-<h4>ingresar el arreglo deacuerdo como  nos pide  cada   opcion </h4>
+    </div>
+<div class="e1">
+    <h5>2. Crea una función que reciba un string y devuelva un nuevo string  <br>con todas las letras en mayúsculas  y los espacios reemplazados por guiones bajos.
+    </h5>
+    <input type="text" name ="dato[]" placeholder="ingresar la frase "  id="ingreso1" ><br>
+    <textarea  id="Salida1" cols="30" rows="4"></textarea><br>
+    <input type="button" value="2.Remplazar" onclick="ingString()">
+    </br>
+</div>
+<div class="e1">
+    <h5>3. Escribe una función que reciba un número y devuelva un array <br>con todos los números primos menores o iguales que ese número.
+    </h5>
+    <input type="text" name ="dato[]" placeholder="ingresar el numero base"  id="ingreso2" > <br>
+    <textarea  id="Salida2" cols="20" rows="4"></textarea><br>
+    
+<input type="button" value="3.Primos menores" onclick="obtenerNumerosPrimos()">
+    </br>
+</div>
 
-<input type="text" name ="dato[]" placeholder="ingresar  lo solocicitado"  id="ingreso" >
-<br>
-<h3 class="titu">Salida por pantalla</h3>
-<textarea  id="Salida" cols="50" rows="10"></textarea>
-<br>
-<input type="button" value="ingresar" onclick="recoger()">
-<input type="button" value="mostrar" onclick="mostrar()">
-<input type="button" value="limpiar" onclick="limpiar()">
-
+<div class="e1">
+    <h5>4. Implementa una función que tome un array de strings y devuelva <br>
+         un nuevo array con la longitud de cada string.</h5>
+         <input type="text" name ="dato[]" placeholder="ingresar la cadena de strings"  id="ingreso3" >
+         <br>
+         <textarea  id="Salida3" cols="20" rows="4"></textarea><br>
+     <input type="button" value="4 longitud" onclick="long_string()">
+</br>
+</div>
+<div class="e1">
+    <h5>5. Crea una función que reciba un objeto y devuelva un array de strings <br> con los nombres de todas las propiedades del objeto.</h5>
+    <h3>  la resolucion de ejercicio se encuentra  en  el documento codigo.js <br>
+        para que lo revice  por console del editor </h3>
+    <br>
+</br>
+</div>
 <br>
 <br>
  </div>
- <div>
+ <div class="pie">
     <footer>
+        <br>
+        <br>
         <H3>Desarrollado por Edilson Guillin</H3>
         <h3>Asignatura:Programacion web 3</h3>
-    
+        <h3>Instituto Tecnologico Nuestra Señora del Rosario</h3>
+        <h3> Cataamayo-Loja-Ecuador</h3>
+    <br>
+    <br>
     </footer>
  </div>
 </body>
