@@ -12,12 +12,13 @@ padding-left: 250px;
 }
  body
  {
-    background-image: url('https://th.bing.com/th/id/OIP.lSi92V7t4zCBR4TxgBe7eQHaD4?pid=ImgDet&rs=1');
+    background-image: url('https://nsr.edu.ec/campus/wp-content/uploads/2023/03/tutor-starter-logo-2.png');
  }
  footer
  {
+   margin-top: 20px;
 text-align: center;
-background-color: aqua;
+background-image: url('https://i.pinimg.com/originals/6c/91/84/6c9184ac3ce855e41813a85284fda036.jpg');
 
  }
  header{
@@ -25,3 +26,20 @@ background-color: aqua;
     text-align: center;
     
  }
+ .e1
+ {
+
+    border-bottom: 200%;
+    background-color: aqua;
+    margin-right: 250px;
+ }
+.encab{
+   background-image: url('https://th.bing.com/th/id/R.4c883dffaf35a6cbe8a94b84212cf45d?rik=%2bSNWvK%2f3Iy9Xhg&pid=ImgRaw&r=0');
+}
+.pie
+{
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: rgb(153, 255, 0);
+   
+}
